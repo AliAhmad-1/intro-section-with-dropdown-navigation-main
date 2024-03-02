@@ -39,6 +39,7 @@ r_features.addEventListener('click', () => {
 
 features.addEventListener('click', () => {
     features_list.classList.toggle('hidden');
+    company_list.classList.add('hidden');
     if (show == false) {
         document.querySelector('.features img').src = "images/icon-arrow-up.svg"
         show = true
@@ -48,6 +49,7 @@ features.addEventListener('click', () => {
     }
 })
 company.addEventListener('click', () => {
+    features_list.classList.add('hidden');
     company_list.classList.toggle('hidden');
     if (show == false) {
         document.querySelector('.company img').src = "images/icon-arrow-up.svg"
