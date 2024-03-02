@@ -157,11 +157,6 @@
             box-shadow: 1px 1px 10px hsl(0, 0%, 100%);
         }
         
-        .header .left ul :nth-child(2):hover .company-list,
-        .header .left ul :nth-child(1):hover .features-list {
-            display: block;
-        }
-        
         .company-list ul {
             display: flex;
             flex-direction: column;
